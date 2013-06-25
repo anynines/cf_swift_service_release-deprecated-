@@ -1,7 +1,7 @@
 ---
 name: swift_service
 dependencies:
-- ruby
+- ruby_next
 files:
 - cf_swift_service/{Rakefile,Gemfile,Gemfile.lock}
 - cf_swift_service/bin/{swift_gateway,swift_node}
