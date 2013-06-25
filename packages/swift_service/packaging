@@ -6,4 +6,12 @@ set -u # report the usage of uninitialized variables
 # $BOSH_INSTALL_TARGET - where you copy/install files to be included in package
 export HOME=/var/vcap
 
+cp -a * ${BOSH_INSTALL_TARGET}
 
+(
+  cd ${BOSH_INSTALL_TARGET}/cf_swift_service
+
+  bundle_cmd=/var/vcap/packages/ruby/bin/bundle
+
+  $bundle_cmd install --local --deployment --without development test
+)

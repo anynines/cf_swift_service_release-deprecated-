@@ -1,5 +1,5 @@
----
-blobstore:
+--- 
+blobstore: 
   provider: local
-  options:
+  options: 
     blobstore_path: /tmp/blobstore

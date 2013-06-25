@@ -5,6 +5,5 @@ packages:
 templates:
   bin/swift_service_gateway_ctl: bin/swift_service_gateway_ctl
   bin/monit_debugger: bin/monit_debugger
-  data/properties.sh.erb: data/properties.sh
-  helpers/ctl_setup.sh: helpers/ctl_setup.sh
-  helpers/ctl_utils.sh: helpers/ctl_utils.sh
+  swift_gateway.yml.erb: config/swift_gateway.yml
+  

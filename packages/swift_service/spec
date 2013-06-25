@@ -3,6 +3,6 @@ name: swift_service
 dependencies:
 - ruby
 files:
-- cf_swift_service/**/*
-
-
+- cf_swift_service/{Rakefile,Gemfile,Gemfile.lock}
+- cf_swift_service/bin/{swift_gateway,swift_node}
+- cf_swift_service/lib/*
