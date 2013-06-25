@@ -3,7 +3,6 @@ name: swift_service_node
 packages:
 - swift_service
 templates:
-  bin/swift_service_node_ctl: bin/swift_service_node_ctl
-  bin/monit_debugger: bin/monit_debugger
-  config/swift_node.yml.erb: config/swift_node.yml
-  config/fog.yml.erb: config/fog.yml
+  swift_service_node_ctl: bin/swift_service_node_ctl
+  swift_node.yml.erb: config/swift_node.yml
+  fog.yml.erb: config/fog.yml
