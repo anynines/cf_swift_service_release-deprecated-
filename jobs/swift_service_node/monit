@@ -1,0 +1,5 @@
+check process swift_service_node
+  with pidfile /var/vcap/sys/run/swift_service_node/swift_service_node.pid
+  start program "/var/vcap/jobs/swift_service_node/bin/monit_debugger swift_service_node_ctl '/var/vcap/jobs/swift_service_node/bin/swift_service_node_ctl start'"
+  stop program "/var/vcap/jobs/swift_service_node/bin/monit_debugger swift_service_node_ctl '/var/vcap/jobs/swift_service_node/bin/swift_service_node_ctl stop'"
+  group vcap

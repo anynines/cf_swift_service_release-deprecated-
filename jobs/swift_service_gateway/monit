@@ -1,0 +1,5 @@
+check process swift_service_gateway
+  with pidfile /var/vcap/sys/run/swift_service_gateway/swift_service_gateway.pid
+  start program "/var/vcap/jobs/swift_service_gateway/bin/monit_debugger swift_service_gateway_ctl '/var/vcap/jobs/swift_service_gateway/bin/swift_service_gateway_ctl start'"
+  stop program "/var/vcap/jobs/swift_service_gateway/bin/monit_debugger swift_service_gateway_ctl '/var/vcap/jobs/swift_service_gateway/bin/swift_service_gateway_ctl stop'"
+  group vcap

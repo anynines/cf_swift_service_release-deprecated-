@@ -1,0 +1,8 @@
+---
+name: swift_service
+dependencies:
+- ruby
+files:
+- cf_swift_service/**/*
+
+
