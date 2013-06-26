@@ -1,0 +1,3 @@
+[submodule "src/swift_service"]
+	path = src/swift_service
+	url = https://github.com/anynines/cf_swift_service.git
