@@ -6,5 +6,5 @@ dependencies:
 files:
 - swift_service/{Rakefile,Gemfile,Gemfile.lock}
 - swift_service/bin/{swift_gateway,swift_node}
-- swift_service/lib/*
+- swift_service/lib/**/*
 - pkg_utils/*
