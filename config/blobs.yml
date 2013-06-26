@@ -51,4 +51,8 @@ libyaml/yaml-0.1.4.tgz:
   object_id: rest/objects/4e4e78bca51e122004e4e8ec6840770511d35ffc91bd
   sha: e0e5e09192ab10a607e3da2970db492118f560f2
   size: 471759
+sqlite/sqlite-autoconf-3070500.tar.gz:
+  object_id: rest/objects/4e4e78bca11e121004e4e7d511f82104f3068661ccfa
+  sha: 4e1338497b8da50b84307191bb3418e9ec5715d7
+  size: 1551070
 
