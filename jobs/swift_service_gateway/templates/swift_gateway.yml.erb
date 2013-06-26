@@ -1,7 +1,4 @@
 ---
-<%
-gateway = properties.swift_gateway
-%>
 cloud_controller_uri: <%= properties.ccng.srv_api_uri %>
 service:
   name: swift
@@ -14,8 +11,8 @@ service:
   version_aliases:
     'current': '1.0'
 
-<% if gateway.ip_route %>
-ip_route: <%= gateway.ip_route %>
+<% if properties.swift_gateway.ip_route %>
+ip_route: <%= properties.swift_gateway.ip_route %>
 <% end %>
 
 gateway_name: "Swift Gateway"
@@ -25,7 +22,7 @@ uaa_client_auth_credentials:
   username: <%= properties.uaa_client_auth_credentials.username %>
   password: "<%= properties.uaa_client_auth_credentials.password %>"
 service_auth_tokens:
-  swift_core: "<%= gateway.token %>"
+  swift_core: "<%= properties.swift_gateway.token %>"
 
 index: 0
 
