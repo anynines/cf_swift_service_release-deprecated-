@@ -1,9 +1,8 @@
 ---
 name: swift_service_gateway
 packages:
-- swift_service
+- cf_swift_service
 templates:
   swift_service_gateway_ctl: bin/swift_service_gateway_ctl
-  monit_debugger: bin/monit_debugger
   swift_gateway.yml.erb: config/swift_gateway.yml
   
