@@ -3,6 +3,6 @@ set -e
 
 cd ${BUILD_DIR}
 
-pkg_utils/vendor.sh cf_swift_service
+pkg_utils/vendor.sh swift_service
 
 rm -rf pkg_utils

@@ -6,8 +6,8 @@ To create and upload this release to your BOSH:
 
 ```
 bosh target BOSH_URL
-git clone git@github.com:dude/cf_swift_service.git
-cd cf_swift_service
+git clone git@github.com:anynines/cf_swift_service_release.git
+cd cf_swift_service_release
 bosh create release
 # blobs are automatically downloaded
 # name it 'cassandra-dev' or something unique to your bosh

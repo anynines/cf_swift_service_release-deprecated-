@@ -1,7 +1,7 @@
 ---
 name: swift_service_node
 packages:
-- cf_swift_service
+- swift_service
 templates:
   swift_service_node_ctl: bin/swift_service_node_ctl
   swift_node.yml.erb: config/swift_node.yml

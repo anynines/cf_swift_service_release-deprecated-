@@ -9,7 +9,7 @@ export HOME=/var/vcap
 cp -a * ${BOSH_INSTALL_TARGET}
 
 (
-  cd ${BOSH_INSTALL_TARGET}/cf_swift_service
+  cd ${BOSH_INSTALL_TARGET}/swift_service
 
   bundle_cmd=/var/vcap/packages/ruby_next/bin/bundle
 
