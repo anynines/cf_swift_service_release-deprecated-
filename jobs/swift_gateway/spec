@@ -1,0 +1,8 @@
+---
+name: swift_gateway
+packages:
+- swift_service
+templates:
+  swift_gateway_ctl: bin/swift_gateway_ctl
+  swift_gateway.yml.erb: config/swift_gateway.yml
+  

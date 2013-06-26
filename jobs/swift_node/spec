@@ -1,0 +1,8 @@
+---
+name: swift_node
+packages:
+- swift_service
+templates:
+  swift_node_ctl: bin/swift_node_ctl
+  swift_node.yml.erb: config/swift_node.yml
+  fog.yml.erb: config/fog.yml
