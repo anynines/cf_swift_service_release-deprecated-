@@ -5,14 +5,14 @@
 To create and upload this release to your BOSH:
 
 ```
-bosh target BOSH_URL
-git clone git@github.com:anynines/cf_swift_service_release.git
-cd cf_swift_service_release
-git submodule update --init
-bosh create release
+$ bosh target BOSH_URL
+$ git clone git@github.com:anynines/cf_swift_service_release.git
+$ cd cf_swift_service_release
+$ ./update
+$ bosh create release
 # blobs are automatically downloaded
 # name it 'cassandra-dev' or something unique to your bosh
-bosh upload release
+$ bosh upload release
 ```
 
 ### Finalizing a release
@@ -21,11 +21,11 @@ If you create a final release `bosh create release --final`, you must immediatel
 
 ```
 [outside vagrant]
-bosh create release --final
-bosh create release
+$ bosh create release --final
+$ bosh create release
 
 [inside vagrant as vcap user]
-/vagrant/scripts/update examples/default.yml
+$ /vagrant/scripts/update examples/default.yml
 ```
 
 
@@ -42,9 +42,9 @@ To switch between example scenarios, run `sm bosh-solo update examples/FILE.yml`
 Once you have a BOSH release that you like, you can upload it to BOSH and deploy it.
 
 ```
-bosh upload release
-bosh deployment path/to/manifest.yml
-bosh deploy
+$ bosh upload release
+$ bosh deployment path/to/manifest.yml
+$ bosh deploy
 ```
 
 Example `properties` for your `manifest.yml` can be taken from the examples in `examples\`
