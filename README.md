@@ -8,6 +8,7 @@ To create and upload this release to your BOSH:
 bosh target BOSH_URL
 git clone git@github.com:anynines/cf_swift_service_release.git
 cd cf_swift_service_release
+git submodule update --init
 bosh create release
 # blobs are automatically downloaded
 # name it 'cassandra-dev' or something unique to your bosh
