@@ -3,10 +3,6 @@ ruby/rubygems-1.7.2.tgz:
   object_id: rest/objects/4e4e78bca11e122004e4e8ec64843104f30690769cd2
   sha: d878ae52f40eb71e59708afc57303172f0327fad
   size: 245606
-ruby/ruby-1.9.2-p180.tar.gz:
-  object_id: rest/objects/4e4e78bca21e121004e4e7d511f55304f30690c88fd9
-  sha: 6a482bc07239b37bcadf68dda63c65d20dc19ebe
-  size: 11158935
 ruby/rake-0.8.7.gem:
   object_id: rest/objects/4e4e78bca51e121004e4e7d51906cd04f30691c45ae0
   sha: 91daad079d404b68a7dd179716b9fdd0c195144c
@@ -19,10 +15,6 @@ ruby/rubygems-1.8.24.tgz:
   object_id: rest/objects/4e4e78bca41e122204e4e9863d076304fa1cc28797a9
   sha: 30f27047e74f7943117736a0d3e224994fee0905
   size: 380101
-ruby/ruby-1.9.3-p194.tar.gz:
-  object_id: rest/objects/4e4e78bca51e122204e4e9863f28f305057c4d82b4d3
-  sha: 31cf6bd981e4c929e5dc3bbdb341833eab1bd9f2
-  size: 12432239
 ruby/bundler-1.2.1.gem:
   object_id: rest/objects/4e4e78bca31e121204e4e86ee39692050a16252f052f
   sha: 0cbe6ad7a41f064d6c11c1058465fffb1bd58069

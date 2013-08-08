@@ -2,7 +2,6 @@
 name: swift_service
 dependencies:
 - ruby_next
-- ruby
 - sqlite
 files:
 - swift_service/{Rakefile,Gemfile,Gemfile.lock}
