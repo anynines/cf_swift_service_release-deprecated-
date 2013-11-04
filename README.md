@@ -1,5 +1,10 @@
 # BOSH Release for cf_swift_service
 
+This bosh release was integrated into the cf-services-contrib-release: <https://github.com/cloudfoundry/cf-services-contrib-release> and will no longer be maintained under anynines organization.
+Please use the cf-services-contrib-release for the latest versions of the release.
+
+The cf_swift_service source code is still maintained under the anynines organization: <https://github.com/anynines/cf_swift_service> .
+
 ## Release to your BOSH
 
 To create and upload this release to your BOSH:
